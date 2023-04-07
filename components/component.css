@@ -1,0 +1,19 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-button {
+  width: 229px;
+  height: 64px;
+  position: relative;
+  padding-right: 56px;
+  background-color: #f59200;
+}
+.component-text {
+  text-align: justify;
+}
+@media(max-width: 479px) {
+  .component-button {
+    text-align: center;
+  }
+}
